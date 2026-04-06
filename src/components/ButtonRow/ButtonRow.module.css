@@ -4,4 +4,8 @@
   margin-inline: -22px;
   margin-bottom: -22px;
   padding: 24px;
+
+  @media (width <=425px) {
+    scrollbar-width: none;
+  }
 }
